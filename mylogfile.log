@@ -331,3 +331,92 @@
 2019-Apr-14 23:28:52.242 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
 2019-Apr-14 23:28:52.245 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
 2019-Apr-14 23:28:52.245 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Apr-14 23:28:52.245 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Apr-14 23:28:52.245 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Apr-14 23:28:52.245 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Apr-14 23:28:52.248 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-Apr-14 23:28:52.268 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-Apr-14 23:28:52.274 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2019-Apr-14 23:28:52.275 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-Apr-14 23:28:52.277 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-Apr-14 23:28:52.309 WARN  [restartedMain] c.v.d.SpringBootLog4J2Application - Hey, This is a warning!
+2019-Apr-14 23:28:52.309 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Oops! We have an Error. OK
+2019-Apr-14 23:28:52.309 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Damn! Fatal error. Please fix me.
+2019-Apr-14 23:33:38.684 DEBUG [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-Apr-14 23:33:38.684 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 265 ms
+2019-Apr-14 23:33:38.695 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:38.695 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-Apr-14 23:33:38.696 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-Apr-14 23:33:38.699 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-Apr-14 23:33:38.699 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Apr-14 23:33:38.699 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Apr-14 23:33:38.699 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Apr-14 23:33:38.699 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Apr-14 23:33:38.703 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-Apr-14 23:33:38.720 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:38.724 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2019-Apr-14 23:33:38.726 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-Apr-14 23:33:38.728 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:38.758 WARN  [restartedMain] c.v.d.SpringBootLog4J2Application - Hey, This is a warning!
+2019-Apr-14 23:33:38.758 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Oops! We have an Error. OK
+2019-Apr-14 23:33:38.758 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Damn! Fatal error. Please fix me.
+2019-Apr-14 23:33:43.701 DEBUG [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-Apr-14 23:33:43.701 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 222 ms
+2019-Apr-14 23:33:43.714 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:43.714 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-Apr-14 23:33:43.715 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:43.715 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-Apr-14 23:33:43.715 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-Apr-14 23:33:43.715 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-Apr-14 23:33:43.716 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-Apr-14 23:33:43.716 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2019-Apr-14 23:33:43.717 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-Apr-14 23:33:43.717 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-Apr-14 23:33:43.717 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-Apr-14 23:33:43.721 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-Apr-14 23:33:43.721 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Apr-14 23:33:43.721 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Apr-14 23:33:43.721 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Apr-14 23:33:43.721 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Apr-14 23:33:43.725 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-Apr-14 23:33:43.747 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:43.753 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2019-Apr-14 23:33:43.755 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-Apr-14 23:33:43.758 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:43.799 WARN  [restartedMain] c.v.d.SpringBootLog4J2Application - Hey, This is a warning!
+2019-Apr-14 23:33:43.799 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Oops! We have an Error. OK
+2019-Apr-14 23:33:43.799 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Damn! Fatal error. Please fix me.
+2019-Apr-14 23:33:49.766 DEBUG [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-Apr-14 23:33:49.766 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 236 ms
+2019-Apr-14 23:33:49.775 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:49.776 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-Apr-14 23:33:49.776 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-Apr-14 23:33:49.776 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-Apr-14 23:33:49.776 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-Apr-14 23:33:49.776 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-Apr-14 23:33:49.777 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-Apr-14 23:33:49.777 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2019-Apr-14 23:33:49.777 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-Apr-14 23:33:49.777 DEBUG [restartedMain] o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-Apr-14 23:33:49.777 DEBUG [restartedMain] o.h.v.i.x.c.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-Apr-14 23:33:49.782 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-Apr-14 23:33:49.782 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-Apr-14 23:33:49.782 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-Apr-14 23:33:49.782 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-Apr-14 23:33:49.782 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-Apr-14 23:33:49.786 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-Apr-14 23:33:49.802 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:49.806 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2019-Apr-14 23:33:49.808 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-Apr-14 23:33:49.811 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-Apr-14 23:33:49.841 WARN  [restartedMain] c.v.d.SpringBootLog4J2Application - Hey, This is a warning!
+2019-Apr-14 23:33:49.841 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Oops! We have an Error. OK
+2019-Apr-14 23:33:49.841 ERROR [restartedMain] c.v.d.SpringBootLog4J2Application - Damn! Fatal error. Please fix me.

@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 
 @SpringBootApplication
-public class SpringBootLog4J2Application   {
+public class SpringBootLog4J2Application    {
     private static final Logger logger = LogManager.getLogger(SpringBootLog4J2Application.class);
 	
 	public static void main(String[] args) {
